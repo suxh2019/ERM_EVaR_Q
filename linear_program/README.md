@@ -22,21 +22,10 @@ We reuse the code of linear program from the previous paper. We include the auth
                    Q-learning on CW domain.
 
 
-- -----------|-------------------------------------|--------------------------|
-Figures      |                q_learning           |     linear_program       |
--------------|-------------------------------------|--------------------------|
-Figure 1     |              q_cliff_0.2.jl         |                          |
--------------|-------------------------------------|--------------------------|
-Figure 2     |              q_cliff_0.6.jl         |                          |
--------------|-------------------------------------|--------------------------|
-Figure 3     |              q_cliff_0.2.jl         |     simulate_returns.jl  |     
-             |              q_cliff_0.6.jl         |                          |
--------------|-------------------------------------|--------------------------|
-Figure 4     |              mean_std_cliff_0.2.jl  |     mean-std.jl          |
--------------|-------------------------------------|--------------------------|
-Figure 5     |              plot_lp_q_cliff.jl     |    LP_cliff.jl           |
-             |             q_cliff_multiple.jl     |                          |
--------------|-------------------------------------|--------------------------|
-Figure 6     |              plot_lp_q_gambler.jl   |    LP_gambler.jl         |
-             |              q_gambler_0.2.jl       |                          |
--------------|-------------------------------------|--------------------------|
+- figures/
+   - figure 1/:  q_cliff_0.2.jl
+   - figure 2/: q_cliff_0.6.jl
+   - figure 3/: q_cliff_0.2.jl ,q_cliff_0.6.jl,simulate_returns.jl
+   - figure 4/:  mean_std_cliff_0.2.jl,mean-std.jl
+   - figure 5/:  plot_lp_q_cliff.jl,  q_cliff_multiple.jl ,LP_cliff.jl
+   - figure 6/:   plot_lp_q_gambler.jl, q_gambler_0.2.jl,  LP_gambler.jl
