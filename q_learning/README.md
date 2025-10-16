@@ -36,6 +36,19 @@ Note that explainations of some files are copied from the previous paper above.
         - domains_info.csv : CSV file containing discount factor and initial state.
         - MDP/ : MDP JLD2 files (Generate from: ``` code/others/csv2MDP.jl```)
 
+- figures/
+   -figure 1/:  q_cliff_0.2.jl
+   -figure 2/: q_cliff_0.6.jl
+   -figure 3/: q_cliff_0.2.jl ,q_cliff_0.6.jl,simulate_returns.jl
+   -figure 4/:  mean_std_cliff_0.2.jl,mean-std.jl
+   -figure 5/:  plot_lp_q_cliff.jl,  q_cliff_multiple.jl ,LP_cliff.jl
+   -figure 6/:   plot_lp_q_gambler.jl, q_gambler_0.2.jl,  LP_gambler.jl
+
+
+
+
+
+
 - -----------|-------------------------------------|--------------------------|
 -Figures      |                q_learning           |     linear_program       |
 -------------|-------------------------------------|--------------------------|
